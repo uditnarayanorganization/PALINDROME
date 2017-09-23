@@ -1,0 +1,16 @@
+#programme to calculate upper&lower case
+str=input("enter the variable & number")
+uc=0
+lc=0
+d=0
+for i in str:
+    if(i.isuppercase()):
+					uc=uc+1
+					if(i.islowercase()):
+										lc=lc+1
+										if(i.isdigit):
+														d=d+1
+print("uc",isuppercase)
+print("lc",islowerercase)
+print("d",isdigit)
+	           
